@@ -51,6 +51,20 @@ body {
 
     .narbar a {float: left;}
     nav.content {margin-left: 0;}
+
+    .navbarright
+    {
+    
+        float: right;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+     
+      
+    }
   
   @media screen and (max-width: 400px) {
     .navbar a {
@@ -282,3 +296,24 @@ tr:nth-child(even){background-color: #f2f2f2}
     display: flex;
     justify-content: center;
     }
+
+.align-right {
+    text-align: right;
+    border: 0;
+    }
+
+    .responsive-google-slides {
+      position: relative;
+      padding-bottom: 56.25%; /* 16:9 Ratio */
+      height: 0;
+      overflow: hidden;
+    }
+    .responsive-google-slides iframe {
+      border: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100% !important;
+      height: 100% !important;
+    }
+
